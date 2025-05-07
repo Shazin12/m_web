@@ -1,0 +1,35 @@
+{
+    "name": "Makhzny",
+    "short_name": "Makhzny",
+    "start_url": ".",
+    "display": "standalone",
+    "background_color": "#410B5F",
+    "theme_color": "#410B5F",
+    "description": "The first Self Storage Company in Saudi Arabia since 2018. Time to get organized. We have a place for everything. Request a quote. Take a tour with Makhzny.",
+    "orientation": "portrait-primary",
+    "prefer_related_applications": false,
+    "icons": [
+        {
+            "src": "icons/Icon-192.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "icons/Icon-512.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        },
+        {
+            "src": "icons/Icon-maskable-192.png",
+            "sizes": "192x192",
+            "type": "image/png",
+            "purpose": "maskable"
+        },
+        {
+            "src": "icons/Icon-maskable-512.png",
+            "sizes": "512x512",
+            "type": "image/png",
+            "purpose": "maskable"
+        }
+    ]
+}
