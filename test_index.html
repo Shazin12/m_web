@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <base href="./">
+
+
+    <meta name="facebook-domain-verification" content="tr7w02lsnlhrkdie516qnd54uwzdod" />
+    <!-- Google Tag Man<meta name="facebook-domain-verification" content="kgrk0771z531h3lrjn80hlnfzolqyd"/>
+ager -->
+    <script>(function (w, d, s, l, i) {
+            w[l] = w[l] || []; w[l].push({
+                'gtm.start':
+                    new Date().getTime(), event: 'gtm.js'
+            }); var f = d.getElementsByTagName(s)[0],
+                j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+                    'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-WKWLDJX');</script>
+    <!-- End Google Tag Manager -->
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-11038452356"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'AW-11038452356');
+    </script>
+
+    <meta charset="UTF-8">
+    <meta content="IE=Edge" http-equiv="X-UA-Compatible">
+    <meta name="description" content="A new Flutter project.">
+
+    <!-- iOS meta tags & icons -->
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="apple-mobile-web-app-title" content="Makhzny">
+    <link rel="apple-touch-icon" href="./icons/Icon-192.png">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="./favicon.png" />
+
+    <title>Makhzny</title>
+    <link rel="manifest" href="./manifest.json">
+
+    <script type="application/javascript" src="./assets/packages/flutter_inappwebview_web/assets/web/web_support.js"
+        defer></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.11.338/pdf.min.js"></script>
+    <script type="text/javascript">
+        pdfjsLib.GlobalWorkerOptions.workerSrc = "https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.11.338/pdf.worker.min.js";
+    </script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            const path = window.location.pathname;
+            const params = new URLSearchParams(window.location.search);
+
+            // Split the path to count the levels
+            const pathSegments = path.split('/').filter(segment => segment !== '');
+
+            // Redirect if it's a second level or deeper path
+            if (pathSegments.length > 1 && !params.has('path')) {
+                const newPath = '/splash?path=/' + encodeURIComponent(path.substring(1));
+                window.location.href = newPath;
+            }
+        });
+    </script>
+</head>
+
+<body>
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WKWLDJX" height="0" width="0"
+            style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+    <script src="./flutter_bootstrap.js?v=1.14.9" async></script>
+</body>
+
+</html>

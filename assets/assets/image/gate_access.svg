@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="16.79" height="19.188" viewBox="0 0 16.79 19.188">
+    <g id="door-open" transform="translate(-12 0)">
+      <g id="Group_1414" data-name="Group 1414" transform="translate(12 0)">
+        <path id="Path_7479" data-name="Path 7479" d="M96.6,98.4c-.331,0-.6-.537-.6-1.2s.269-1.2.6-1.2.6.537.6,1.2S96.931,98.4,96.6,98.4Z" transform="translate(-87.605 -86.406)" fill="#a3a4a8"/>
+        <path id="Path_7480" data-name="Path 7480" d="M23.786.146A.6.6,0,0,1,23.993.6v.6h.6a1.8,1.8,0,0,1,1.8,1.8V17.988h1.8a.6.6,0,0,1,0,1.2H12.6a.6.6,0,1,1,0-1.2h1.8V1.8a.6.6,0,0,1,.516-.594l8.395-1.2a.6.6,0,0,1,.477.14ZM24.592,2.4h-.6v15.59h1.2V3A.6.6,0,0,0,24.592,2.4ZM15.6,2.319V17.988h7.2V1.291Z" transform="translate(-12 0)" fill="#a3a4a8"/>
+      </g>
+    </g>
+  </svg>
+  
